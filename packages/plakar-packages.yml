@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://github.com/PlakarKorp
+packages:
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/PlakarKorp/go-kloset-sdk
+    url: https://pkg.go.dev/github.com/PlakarKorp/go-kloset-sdk
+    install: go get github.com/PlakarKorp/go-kloset-sdk
+    official: true
+    description: >-
+      Official Go SDK for extending Plakar with custom integrations (importers,
+      exporters, storage backends) that talk the Kloset gRPC connector protocol.
+    version: v1.1.0
+    license: ISC
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/PlakarKorp/plakar
+    url: https://pkg.go.dev/github.com/PlakarKorp/plakar
+    install: go install github.com/PlakarKorp/plakar@latest
+    official: true
+    description: >-
+      Plakar CLI and backup engine (the plakar binary). Prebuilt binaries also
+      published at https://www.plakar.io/download.
+    version: v1.1.4
+    license: ISC
+  - language: go
+    registry: pkg.go.dev
+    name: github.com/PlakarKorp/go-cdc-chunkers
+    url: https://pkg.go.dev/github.com/PlakarKorp/go-cdc-chunkers
+    install: go get github.com/PlakarKorp/go-cdc-chunkers
+    official: true
+    description: >-
+      Content-defined chunking library with a generic interface, used by Kloset
+      for deduplication.
+    license: ISC

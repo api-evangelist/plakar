@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://plakar.io/docs
+versioning:
+  scheme: semver
+  current: v1.1.4
+  released: '2026-06-30'
+  docs: https://plakar.io/docs/community/
+  notes: >-
+    Plakar releases follow semantic versioning; documentation is versioned per
+    release (v1.0.5 .. v1.1.4 latest, plus a dev branch).
+status_page: https://status.plakar.io
+sla:
+  url: https://plakar.io/docs/control-plane
+  notes: >-
+    SLA management is a feature of the commercial Plakar Control Plane; no public
+    uptime SLA is published for the open-source engine.
+deprecation:
+  policy_url: null
+  notes: No formal deprecation/Sunset-header policy published for the open-source project.
+deprecated_operations: []

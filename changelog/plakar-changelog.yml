@@ -1,0 +1,18 @@
+generated: '2026-07-20'
+method: searched
+source: https://plakar.io/docs/community/
+scheme: semver
+current_version: v1.1.4
+docs: https://plakar.io/docs/community/
+notes: >-
+  Plakar publishes versioned documentation per release. The live release notes on
+  plakar.io are the source of truth; captured here is the current version and the
+  recent release window. Per-release highlights were not individually enumerated
+  in the public docs index at capture time.
+entries:
+  - version: v1.1.4
+    date: '2026-06-30'
+    highlights: Latest stable community release.
+  - version: v1.1.0
+    date: null
+    highlights: go-kloset-sdk v1.1.0 published (official plugin SDK).

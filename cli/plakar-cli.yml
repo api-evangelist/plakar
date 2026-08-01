@@ -1,0 +1,36 @@
+generated: '2026-07-20'
+method: searched
+source: https://plakar.io/docs
+name: plakar
+description: >-
+  plakar is the first-party command-line interface and backup engine for the
+  Plakar open-source, end-to-end encrypted, deduplicated backup platform powered
+  by the Kloset immutable data store. The CLI is the primary programmatic surface
+  for creating snapshots, restoring, synchronizing Kloset stores, and managing
+  integration plugins.
+current_version: v1.1.4
+license: ISC
+install:
+  - method: go
+    command: go install github.com/PlakarKorp/plakar@latest
+  - method: binary
+    command: Download prebuilt binaries from https://www.plakar.io/download
+commands:
+  - name: backup
+    description: Create an encrypted, deduplicated snapshot of a source into a Kloset store.
+  - name: restore
+    description: Restore files or a full snapshot from a Kloset store to a destination.
+  - name: ls
+    description: List snapshots stored in a Kloset.
+  - name: sync
+    description: Synchronize Kloset stores across locations.
+  - name: ptar
+    description: Export snapshots as portable ptar archives.
+  - name: ui
+    description: Launch the built-in local web UI for browsing snapshots.
+  - name: pkg add
+    description: Install an integration plugin (importer/exporter/storage connector).
+notes: >-
+  The documented command surface includes 40+ subcommands for backup, restore,
+  maintenance, integrity checking, and Kloset store management; the entries above
+  are the marquee flows. See https://plakar.io/docs for the full CLI reference.

@@ -1,0 +1,39 @@
+# Plakar
+
+> Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. Data is encrypted and deduplicated at the source before it leaves your system (keys stay in your secret manager), stored in a non-proprietary format on S3-compatible, cloud, or local backends. A commercial self-hosted Plakar Control Plane adds organization-wide scheduling, SLA management, and centralized administration. Plakar exposes a CLI, an official Go SDK, and a gRPC connector protocol for building custom importers, exporters, and storage backends.
+
+## APIs & Interfaces
+- [plakar CLI](https://plakar.io/docs): first-party command line for backup, restore, ls, sync, ptar, ui, and plugin management (40+ commands).
+- [Kloset gRPC connector protocol](https://github.com/PlakarKorp/integration-grpc): proto3 protocol wrapping importer/exporter/storage connectors.
+- [go-kloset-sdk](https://pkg.go.dev/github.com/PlakarKorp/go-kloset-sdk): official Go SDK for writing Plakar integration plugins.
+
+## Docs
+- [Documentation](https://plakar.io/docs)
+- [Community docs](https://plakar.io/docs/community/)
+- [Quickstart — first backup](https://plakar.io/docs/community/v1.1.0/quickstart/first-backup)
+- [CLI commands reference](https://plakar.io/docs/community/)
+- [Control Plane docs](https://plakar.io/docs/control-plane)
+- [Integrations / connectors](https://plakar.io/integrations)
+
+## Repositories
+- [plakar (engine + CLI)](https://github.com/PlakarKorp/plakar)
+- [kloset (immutable data store)](https://github.com/PlakarKorp/kloset)
+- [go-kloset-sdk](https://github.com/PlakarKorp/go-kloset-sdk)
+- [integration-grpc](https://github.com/PlakarKorp/integration-grpc)
+- [integrations](https://github.com/PlakarKorp/integrations)
+- [go-cdc-chunkers](https://github.com/PlakarKorp/go-cdc-chunkers)
+
+## Artifacts (API Evangelist)
+- [Packages / SDKs](https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/packages/plakar-packages.yml)
+- [CLI surface](https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/cli/plakar-cli.yml)
+- [gRPC connectors.proto](https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/grpc/plakar-connectors.proto)
+- [Conformance](https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/conformance/plakar-conformance.yml)
+- [Lifecycle](https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/lifecycle/plakar-lifecycle.yml)
+
+## More
+- [Blog](https://plakar.io/posts)
+- [Status](https://status.plakar.io)
+- [Trust center](https://trust.plakar.io)
+- [Discord community](https://discord.gg/uuegtnF2Q5)
+- [Privacy policy](https://plakar.io/privacy-policy/)
+- [Legal notice](https://plakar.io/legal-notice/)

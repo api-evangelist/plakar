@@ -1,7 +1,17 @@
 aid: plakar
 name: Plakar
-description: Plakar is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore
+  platform powered by Kloset, an immutable data store engine. It encrypts and
+  deduplicates data at the source before it leaves your system (encryption keys stay
+  in your own secret manager), stores it in a non-proprietary format on S3-compatible,
+  cloud, or local backends, and supports immutable object-lock backups for zero-trust
+  data protection. Plakar ships a CLI and built-in web UI, an official Go SDK
+  (go-kloset-sdk), and a proto3 gRPC connector protocol for building custom importers,
+  exporters, and storage backends. Sources include PostgreSQL, MySQL/MariaDB,
+  Kubernetes, Proxmox, VMware vSphere, S3, SFTP, and many cloud drives. The commercial
+  self-hosted Plakar Control Plane adds organization-wide scheduling, SLA management,
+  and centralized administration. Backed by Seedcamp.
 url: https://raw.githubusercontent.com/api-evangelist/plakar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +19,34 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://plakar.io/branding/
 tags:
 - Company
+- Backup
+- Data Protection
+- Disaster Recovery
+- Open Source
+- Encryption
+- Deduplication
+- Storage
+- CLI
+- gRPC
+- Go SDK
+- Kubernetes
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +56,48 @@ maintainers:
 common:
 - type: Website
   url: http://plakar.io
+- type: DeveloperPortal
+  url: https://plakar.io/docs
+- type: Documentation
+  url: https://plakar.io/docs
+- type: GettingStarted
+  url: https://plakar.io/docs/community/v1.1.0/quickstart/first-backup
+- type: Blog
+  url: https://plakar.io/posts
+- type: GitHubOrganization
+  url: https://github.com/PlakarKorp
+- type: Support
+  url: https://discord.gg/uuegtnF2Q5
+- type: StatusPage
+  url: https://status.plakar.io
+- type: PrivacyPolicy
+  url: https://plakar.io/privacy-policy/
+- type: TermsOfService
+  url: https://plakar.io/legal-notice/
+- type: TrustCenter
+  url: security/plakar-trust-center.yml
+- type: Compliance
+  url: https://trust.plakar.io
+- type: DomainSecurity
+  url: security/plakar-domain-security.yml
+- type: Packages
+  url: packages/plakar-packages.yml
+- type: SDKs
+  url: packages/plakar-packages.yml
+- type: CLI
+  url: cli/plakar-cli.yml
+- type: Protobuf
+  url: grpc/plakar-connectors.proto
+- type: Conformance
+  url: conformance/plakar-conformance.yml
+- type: Lifecycle
+  url: lifecycle/plakar-lifecycle.yml
+- type: ChangeLog
+  url: changelog/plakar-changelog.yml
+- type: LLMsTxt
+  url: llms/plakar-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 9
+  pass: local-v1
