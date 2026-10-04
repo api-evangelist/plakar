@@ -50,7 +50,7 @@ tags:
 - Backup
 - Data Protection
 - Disaster Recovery
-- Open-Source
+- Open Source
 - Encryption
 - Deduplication
 - Storage
@@ -71,6 +71,7 @@ tags_raw:
 - gRPC
 - Go SDK
 - Kubernetes
+- Open-Source
 apis: []
 maintainers:
 - FN: Kin Lane
