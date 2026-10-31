@@ -64,6 +64,89 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Plakar is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Plakar is an open-source, end-to-end encrypted, deduplicated backup and restore platform powered by Kloset, an immutable data store engine. It encrypts and deduplicates data at the source before it leaves your system (encryption keys stay in your own secret manager), stores it in a non-proprietary format on S3-compatible, cloud, or local backends, and supports immutable object-lock backups for zero-trust data protection. Plakar ships a CLI and built-in web UI, an official Go SDK (go-kloset-sdk), and a proto3 gRPC connector protocol for building custom importers, exporters, and storage backends. Sources include PostgreSQL, MySQL/MariaDB, Kubernetes, Proxmox, VMware vSphere, S3, SFTP, and many cloud drives. The commercial self-hosted Plakar Control Plane adds organization-wide scheduling, SLA management, and centralized administration. Backed by Seedcamp.
 
-Backed by: seedcamp — http://plakar.io
+**Areas:** Company · Backup · Data Protection · Disaster Recovery · Open Source · Encryption · Deduplication · Storage · CLI · gRPC · Go SDK · Kubernetes
+
+## Plakar on APIs.io
+
+Everything profiled for Plakar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/plakar/](https://apis.io/providers/plakar/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Plakar Domain Security](https://apis.io/security/plakar/plakar-domain-security/)
+- [Plakar Trust Center](https://apis.io/security/plakar/plakar-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](http://plakar.io)
+- [Documentation](https://plakar.io/docs)
+- [Getting started](https://plakar.io/docs/community/v1.1.0/quickstart/first-backup)
+- [Support](https://discord.gg/uuegtnF2Q5)
+- [Blog](http://plakar.io/posts/)
+- [Compliance](https://trust.plakar.io)
+- [Terms of service](https://plakar.io/legal-notice/)
+- [Privacy policy](https://plakar.io/privacy-policy/)
+- [GitHub](https://github.com/PlakarKorp)
+- [Status](https://status.plakar.io)
+
+## API Evangelist rating
+
+**Kin Score 36.2** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 24.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 52.4 |
+| Access clarity | 36.8 |
+
+**Agent readiness 12.9** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/plakar/](https://apis.io/providers/plakar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Plakar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/plakar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
